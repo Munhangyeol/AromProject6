@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "971310264179",
+    "project_id": "rosy-rider-368110",
+    "storage_bucket": "rosy-rider-368110.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971310264179:android:43103e94f1c3882a751f06",
+        "android_client_info": {
+          "package_name": "com.example.aromproject6"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971310264179-ur9ful2rl4d8jcughbhn4bvl44pivl57.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aromproject6",
+            "certificate_hash": "1244ab769a415da16822103e3200127a2874b97d"
+          }
+        },
+        {
+          "client_id": "971310264179-5n9j3fcr3n3hes8ttqq84u4jkffjdiul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqpT4S9UOMRDCzn_kNH7ooZ-POtOfU3Qw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971310264179-5n9j3fcr3n3hes8ttqq84u4jkffjdiul.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

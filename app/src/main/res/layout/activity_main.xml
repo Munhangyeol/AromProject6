@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFDDDD"
+    android:orientation="vertical"
+    tools:context=".StartActivity">
+
+
+    <TextView
+        android:id="@+id/main_text"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/ibmbold"
+        android:gravity="center"
+        android:text="Boom Bim"
+        android:textColor="#000000"
+        android:textSize="45dp" />
+
+    <TextView
+        android:id="@+id/main_sub_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ibmbold"
+        android:gravity="center"
+        android:text="세종대 학생식당의 붐빔은?"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/activity_student_button"
+        android:layout_width="149dp"
+        android:layout_height="133dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/foodlogo"
+        android:fontFamily="@font/ibmbold"
+        android:gravity="center"
+        android:text="학생회관"
+        android:textColor="#000000"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/activity_kunja_button"
+        android:layout_width="149dp"
+        android:layout_height="133dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/foodlogo"
+        android:fontFamily="@font/ibmbold"
+        android:gravity="center"
+        android:text="군자관"
+        android:textColor="#000000"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/activity_jinkwan_button"
+        android:layout_width="149dp"
+        android:layout_height="133dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/foodlogo"
+        android:fontFamily="@font/ibmbold"
+        android:gravity="center"
+        android:text="진관홀"
+        android:textColor="#000000"
+        android:textSize="25dp" />
+
+</LinearLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFDCDC"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="99dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="-10dp"
+                android:fontFamily="@font/ibmbold"
+                android:gravity="center"
+                android:text="붐빔"
+                android:textColor="#000000"
+                android:textSize="45dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:layout_marginTop="-5dp"
+                android:fontFamily="@font/ibmbold"
+                android:text="   세종대학교"
+                android:textColor="#000000"
+                android:textSize="22dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="65dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/boombimlist" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="@font/ibmbold"
+        android:gravity="center"
+        android:text="진관홀"
+        android:textColor="#000000"
+        android:textSize="35dp" />
+    <ProgressBar
+        android:id="@+id/rest_student_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:max="256"
+        android:progressBackgroundTint="#FD7A7A"
+        android:progressTint="#FF0000"
+
+        />
+
+    <Button
+        android:id="@+id/student_rest_narrotto_btn"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/roundbutton"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/ibmbold"
+        android:gravity="center"
+        android:text="나루또"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/student_rest_azio_btn"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/roundbutton"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/ibmbold"
+        android:gravity="center"
+        android:text="아지오"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/student_rest_kimbab_btn"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/roundbutton"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/ibmbold"
+        android:gravity="center"
+        android:text="김밥천국"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/student_rest_subscribe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/ibmbold"
+        android:gravity="center"
+        android:text="붐빔의 혼잡도는 아래와 같이 나타납니다.\n0%~40%:초록색\n41%~79%:파란색\n80%~99%:빨간색"
+        android:textColor="#000000"
+        android:textSize="16dp" />
+
+
+</LinearLayout>
