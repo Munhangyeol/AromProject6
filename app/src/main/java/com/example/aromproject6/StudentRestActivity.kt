@@ -40,10 +40,10 @@ class StudentRestActivity : AppCompatActivity(), Runnable {
         azio_btn = findViewById(R.id.student_rest_azio_btn)
         kimbab_btn = findViewById(R.id.student_rest_kimbab_btn)
         Student_ProgressBar = findViewById(R.id.rest_student_bar)
-        Student_ProgressBar.setProgress(1)
+        Student_ProgressBar?.setProgress(1)
         val t = Thread(this)
         t.start()
-        narutto_btn.setOnClickListener(View.OnClickListener {
+        narutto_btn?.setOnClickListener(View.OnClickListener {
             val user: MutableMap<String, Any> = HashMap()
             strID = userID.toString()
             user["userID"] = user_current_time
