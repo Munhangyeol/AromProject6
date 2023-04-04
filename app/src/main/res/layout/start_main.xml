@@ -59,7 +59,7 @@
         android:layout_marginTop="740dp"
         android:fontFamily="@font/ibmbold"
         android:text="세종대학교"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
